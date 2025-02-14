@@ -5,14 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-size: 20px;
+            font-family: "Poppins", sans-serif;
+            background-color: #e9e9e9;
+            color: #e5c100;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #252525;
+            display: flex;
+            align-items: center;
+            padding: 15px 40px;
+            box-shadow: 0 4px 10px rgba(201, 162, 39, 0.3);
+            margin-bottom: 40px;
+        }
+
+        .nombre {
+            font-size: 22px;
+            font-weight: 600;
+            color: #e5c100;
+            flex-grow: 1; /* Hace que el nombre quede a la izquierda */
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px; /* Espaciado entre enlaces */
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 600;
+            padding: 10px 20px;
+        }
+
+        .nav-links a:hover {
+            color: #e5c100;
+            transition: color 0.3s ease;
+        }
+    </style>
+
 </head>
 <body>
 
     <header>
-        <div><a href="#sobre-mi">Sobre mi</a></div>
-        <div><a href="#mis-estudios">Datos adicionales</a></div>
-        <div><a href="#mis-proyectos">Mis Proyectos</a></div>
+        <div class="nombre">Edgar Antonio Olan</div>
+        <div class="nav-links">
+            <a href="#sobre-mi">Sobre mi</a>
+            <a href="#mis-estudios">Datos adicionales</a>
+            <a href="#mis-proyectos">Mis Proyectos</a>
+        </div>
     </header>
+    
     
     <section class="bdy" id="mis-proyectos">
         <div class="pj">
