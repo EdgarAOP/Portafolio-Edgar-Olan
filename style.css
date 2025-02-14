@@ -152,6 +152,7 @@ button.next {
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(201, 162, 39, 0.3);
+    
 }
 
 .bdy .ab .ab-right-img {
@@ -160,6 +161,12 @@ button.next {
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(201, 162, 39, 0.3);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.bdy .ab .ab-right-img:hover {
+    transform: scale(1.2);
 }
 
 .bdy .dt {
@@ -191,6 +198,12 @@ button.next {
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(201, 162, 39, 0.3);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.bdy .dt .dt-left-img:hover {
+    transform: scale(1.2);
 }
 
 footer {
