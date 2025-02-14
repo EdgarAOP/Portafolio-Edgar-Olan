@@ -12,39 +12,19 @@ body {
 header {
     background-color: #252525;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 0px 0 0px 0px;
+    justify-content: flex-end;
+    border-radius: 10px;
     color: #ffffff;
     padding: 15px;
     box-shadow: 0 4px 10px rgba(201, 162, 39, 0.3);
 }
-
-.header-icon {
-    width: 70px;
-    height: 50px;
-    cursor: pointer;
-    margin-right: 20px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.header-icon:hover {
-    transform: scale(1.2);
-}
-
-.header-links {
-    display: flex;
-    justify-content: flex-end;
-    flex-grow: 1;
-}
-
 header a {
     text-decoration: none;
-    color: inherit;
+    color: inherit;  /* Heredar el color de texto */
 }
 
 header a:hover {
-    color: #e5c100;
+    color: #e5c100; /* Cambiar color al pasar el mouse */
     transition: color 0.3s ease;
 }
 
@@ -58,7 +38,6 @@ header div:hover {
     color: #fff;
     transition: 0.3s ease;
 }
-
 
 .bdy {
     display: flex;
